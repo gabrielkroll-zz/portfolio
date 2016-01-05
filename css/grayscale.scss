@@ -172,6 +172,10 @@ a {
             }
         }
     }
+    .intro-arrow-down {
+        opacity: 0.1;
+        text-align: center;
+    }
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
@@ -241,6 +245,36 @@ a {
         height: auto;
         margin: 0 auto;
         border: none;
+    }
+    .coulumnInThirds {
+        float: left;
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: none;
+        @media(min-width:767px) {
+            width: 30%;
+            margin: 0 1.665%;
+            float: left;
+        }
+    }
+    .coulumnInThirds p {
+        margin: 0;
+        margin-bottom: 1.2em;
+    }
+    .noMargin {
+        margin: 0;
+    }
+    .arrow-down {
+        opacity: 0.1;
+        text-align: center;
+        @media(min-width:767px) {
+            .arrow-down {
+                opacity: 0.1;
+                text-align: center;
+            }
+        }
     }
     /* Added in { Personal } */
     ul,
